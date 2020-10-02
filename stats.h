@@ -15,13 +15,11 @@
  * Print the array statistics such as mean, median, maximum and minimum value of the given array. 
  *
  * @author Sangeetha Mohanandan
- * @date 28/10/2020
+ * @date 02/10/2020
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
-
-/* Add Your Declarations and Function Comments here */
 
 void print_statistics(unsigned char ptr[], int count);
 /**

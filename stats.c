@@ -35,8 +35,6 @@ void main()
                               201, 6, 12, 60, 8, 2, 5, 67,
                               7, 87, 250, 230, 99, 3, 100, 90};
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
   printf("Given an array of size 40 shown below\n");
   print_array(test, SIZE);
   printf("\n\t The sorted array is\n");
@@ -176,4 +174,3 @@ void print_statistics(unsigned char ptr[], int count)
   printf("\n\tMinimum is %d", find_minimum(ptr, count));
   printf("\n\tMedian is %d", find_median(ptr, count));
 }
-/* Add other Implementation File Code Here */
